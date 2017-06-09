@@ -1,0 +1,34 @@
+{
+  "name": "angular-css-modules",
+  "version": "0.1.0",
+  "description": "CSSModules in AngularJS",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "webpack",
+    "build": "NODE_ENV=\"production\" webpack -p --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicoBurno/angular-css-modules.git"
+  },
+  "keywords": [
+    "angular",
+    "css-modules"
+  ],
+  "author": "NicoBurno <nicoburno@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NicoBurno/angular-css-modules/issues"
+  },
+  "homepage": "https://github.com/NicoBurno/angular-css-modules#readme",
+  "peerDependencies": {
+    "angular": "^1.5.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-latest": "^6.24.1",
+    "webpack": "^2.6.1"
+  }
+}
